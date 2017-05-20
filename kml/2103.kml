@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Placemark>
+<name>FRUTILLAR</name>
+<LookAt>
+<longitude>-73.0362399402006</longitude>
+<latitude>-41.1151978782445</latitude>
+<range>300</range>
+<tilt>0</tilt>
+<heading>0</heading>
+</LookAt>
+<visibility>1</visibility>
+<Style>
+<IconStyle>
+<scale>0.5</scale>
+<Icon>
+<href>http://192.168.185.181/Lugares/App_Lugares/images/x.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Point>
+<extrude>1</extrude>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>-73.0362399402006,-41.1151978782445,0</coordinates>
+</Point>
+</Placemark>
+</kml>
+

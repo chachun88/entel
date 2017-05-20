@@ -1,0 +1,573 @@
+﻿body
+{
+	margin: 0;
+	padding: 0;
+	font: 62.5% Arial,Helvetica,sans-serif;
+	background-color: #E7EDF0;
+}
+#contenedor
+{
+	display: block;
+	margin: 30px auto;
+	width: 1100px;
+}
+#contenido
+{
+	background: url(                     "../img/bg_contenedor.gif" ) repeat-y scroll left top transparent;
+	padding: 0 45px 7px;
+	height: 500px;
+}
+#proyecto
+{
+	background: url(           "../img/caja_proyecto.png" ) no-repeat scroll 0 0 transparent;
+	padding-top: 10px;
+	width: 596px;
+	float: left;
+}
+#info_estacion
+{
+	float: left;
+	background: url(           "../img/caja_estacion.png" ) no-repeat scroll 0 0 transparent;
+	margin: 0 5px;
+	width: 400px;
+}
+#info_est_top
+{
+	padding: 0 15px;
+}
+.tbl_info_estacion
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+.banner_home_destacado
+{
+	display: block;
+	padding: 0 0 20px;
+	position: relative;
+	height: 252px;
+}
+#cabecera_top
+{
+	background: url(                         "../img/bg_contenedor_top.gif" ) no-repeat scroll left top transparent;
+	height: 7px;
+}
+#cabecera
+{
+	background: url(                         "../img/bg_contenedor.gif" ) repeat-y scroll left top transparent;
+	padding: 25px 45px;
+}
+#cabecera #logoEntel
+{
+	background: url(                        "../img/logo_entel.gif" ) no-repeat scroll left top transparent;
+	display: inline-block;
+	height: 55px;
+	width: 220px;
+}
+#cabecera #logoEntel:hover
+{
+	background-position: left bottom;
+}
+
+#cabecera #Busqueda, #cabecera #Buscador
+{
+	width: 160px;
+	float: right;
+}
+#cabecera #Buscador
+{
+	margin: 10px;
+}
+
+
+#cabecera_menu
+{
+	background: url(           "../img/bg_contenedor.gif" ) repeat-y scroll left top transparent;
+	display: block;
+	padding: 0 45px 20px;
+	width: 1100px;
+}
+
+#cabecera_menu .menu_principal
+{
+	background: none repeat scroll 0 0 #0073AE;
+	display: block;
+	width: 1004px;
+	font: 62.5% Arial,Helvetica,sans-serif;
+}
+
+#cabecera_menu .menu_principal_top
+{
+	background: url(                       "../img/menu_top.png" ) no-repeat scroll left top transparent;
+}
+#cabecera_menu .menu_principal ul li
+{
+	background: none repeat scroll 0 0 transparent;
+	display: block;
+	float: left;
+	padding-left: 4px;
+}
+#cabecera_menu .menu_principal ul li a span
+{
+	display: block;
+	padding: 7px 8px 7px 11px;
+}
+
+#cabecera_menu .menu_principal_top, #cabecera_menu .menu_principal_tabs_top, #cabecera_menu .menu_principal_bottom
+{
+	display: block;
+	font-size: 1px;
+	height: 2px;
+}
+#cabecera_menu .menu_principal_tabs_top
+{
+	background: url(                     "../img/menu_top.png" ) no-repeat scroll left top transparent;
+}
+#cabecera_menu .menu_principal_top
+{
+	background: url(                     "../img/menu_top.png" ) no-repeat scroll left top transparent;
+}
+#cabecera_menu .menu_principal_bottom
+{
+	background: url(                     "../img/menu_bottom.png" ) no-repeat scroll left top transparent;
+}
+#cabecera_menu .menu_principal_main
+{
+	padding-bottom: 30px;
+}
+#cabecera_menu .menu_tabs
+{
+	background: none repeat scroll 0 0 #C9E9F9;
+}
+#cabecera_menu .menu_tabs ul li
+{
+	background: none repeat scroll 0 0 transparent;
+	display: block;
+	float: left;
+	padding-left: 0;
+}
+#cabecera_menu .menu_tabs ul li a
+{
+	color: #0073AE;
+	display: block;
+	font-family: Tahoma;
+	font-size: 13px;
+	text-decoration: none;
+}
+#cabecera_menu .menu_tabs ul li a span
+{
+	display: block;
+	padding: 2px 8px 4px 12px;
+}
+#cabecera_menu .menu_tabs ul li.seleccionado a
+{
+	background: url(                     "../img/menu_tab.gif" ) no-repeat scroll right -50px transparent;
+	color: #FFFFFF;
+	display: block;
+	font-weight: bolder;
+	margin: -2px 0;
+	padding-right: 3px;
+	position: relative;
+	z-index: 10;
+}
+#cabecera_menu .menu_tabs ul li.seleccionado a span
+{
+	background: url(                     "../../img/cabecera/empresas/menu_tab.gif" ) no-repeat scroll left top transparent;
+	display: block;
+	padding: 4px 9px 6px 12px;
+}
+#cabecera_menu .menu_principal ul li
+{
+	background: none repeat scroll 0 0 transparent;
+	display: block;
+	float: left;
+	padding-left: 4px;
+}
+#cabecera_menu .menu_principal ul li a
+{
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	font-family: Tahoma;
+	font-size: 13px;
+	height: 30px;
+	padding-right: 3px;
+	text-decoration: none;
+}
+#cabecera_menu .menu_principal ul li a span
+{
+	display: block;
+	padding: 7px 8px 7px 11px;
+}
+#cabecera_menu .menu_principal ul li a:hover
+{
+	background: url(                     "../img/menu_seleccionado.gif" ) no-repeat scroll right -30px transparent;
+	display: block;
+	height: 30px;
+}
+#cabecera_menu .menu_principal ul li a:hover span
+{
+	background: url(                     "../img/menu_seleccionado.gif" ) no-repeat scroll left top transparent;
+	cursor: pointer;
+	display: block;
+}
+#cabecera_menu .menu_principal ul li a.seleccionado
+{
+	background: url(                     "../img/menu_seleccionado.gif" ) no-repeat scroll right -30px transparent;
+	display: block;
+	font-weight: bolder;
+	height: 30px;
+}
+#cabecera_menu .menu_principal ul li a.seleccionado span
+{
+	background: url(                     "../img/menu_seleccionado.gif" ) no-repeat scroll left top transparent;
+	display: block;
+}
+#cabecera .cabecera_top
+{
+	background: url(                     "../img/bg_cabecera.gif" ) no-repeat scroll left bottom transparent;
+	display: block;
+	padding-bottom: 10px;
+	position: relative;
+}
+#cabecera ol, #cabecera ul, #cabecera dl, #cabecera_menu ol, #cabecera_menu ul, #cabecera_menu dl
+{
+	list-style: none outside none;
+}
+
+
+
+.caja_mi_entel
+{
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+}
+.caja_destacada_mi_entel
+{
+	background: none repeat scroll 0 0 #FFFFFF;
+	position: relative;
+}
+h2.titulo_mientel
+{
+	border-left: 5px solid #0073AE;
+	color: #0073AE;
+	display: block;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 2.2em;
+	margin: 0 0 5px;
+	padding: 0 0 0 3px;
+}
+#caja_mi_entel .contenedor_tabs
+{
+	display: block;
+	padding: 10px 0 0;
+	height: 26px;
+}
+#caja_mi_entel .contenedor_tabs .tab
+{
+	background: none repeat scroll 0 0 #ECECEC;
+	border-bottom: 1px solid #FFFFFF;
+	color: #898989;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 1.1em;
+	font-weight: bolder;
+	margin: 0 1px 0 0;
+	padding: 5px;
+	position: relative;
+	text-align: center;
+	width: 45px;
+}
+#caja_mi_entel .contenedor_tabs .tab_seleccionado
+{
+	background: none repeat scroll 0 0 #F0F0F0;
+	border-color: #A0A0A0 #A0A0A0 #F0F0F0;
+	border-style: solid;
+	border-width: 1px;
+	color: #0073AE;
+	margin-bottom: -1px;
+	padding: 5px 5px 6px;
+	z-index: 100;
+}
+#caja_mi_entel .contenido_tab
+{
+	background: none repeat scroll 0 0 #F0F0F0;
+	border-left: 1px solid #A0A0A0;
+	border-right: 1px solid #A0A0A0;
+	border-top: 1px solid #A0A0A0;
+	display: none;
+	min-height: 156px;
+	padding: 10px;
+	position: relative;
+}
+
+#caja_mi_entel .tab_desplegado
+{
+	display: block;
+}
+
+#caja_mi_entel .bajada_titulo_gris
+{
+	color: #A0A0A0;
+	display: block;
+	font-size: 1.1em;
+}
+
+#caja_mi_entel .contenido_tab .item_formulario
+{
+	display: block;
+	padding: 7px 0 0;
+}
+#caja_mi_entel .contenido_tab .item_formulario input
+{
+	color: #666666;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 1.2em;
+}
+#caja_mi_entel .item_formulario span.clave_texto
+{
+	color: #666666;
+	display: block;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 1.2em;
+	left: 10px;
+	padding: 12px 0 0 4px;
+	position: absolute;
+	top: 78px;
+	z-index: 100;
+}
+#caja_mi_entel .contenido_tab .contenedor_botones_home
+{
+	display: block;
+	padding: 11px 0 0;
+}
+#caja_mi_entel .contenido_tab .contenedor_botones_home .solicitar_clave, .contenedor_boton_azul
+{
+	display: block;
+	float: left;
+	margin: 10px 0;
+}
+#caja_mi_entel .contenido_tab .contenedor_botones_home .solicitar_clave a, #caja_mi_entel .contenido_tab .contenedor_botones_home .solicitar_clave a:visited
+{
+	border-bottom: 1px dotted #0073AE;
+	color: #0073AE;
+	display: block;
+	float: left;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 1.2em;
+	margin: 5px 12px 0 0;
+	text-decoration: none;
+}
+.enlaceNaranja
+{
+	background: url(                     "../img/btn_azul.png" ) no-repeat scroll right -26px transparent;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	font-family: Tahome,Arial,Helvetica,sans-serif;
+	font-size: 1.1em;
+	font-weight: bolder;
+	height: 24px;
+	padding-right: 12px;
+	text-decoration: none;
+}
+.enlaceNaranja span
+{
+	background: url(                     "../img/btn_azul.png" ) no-repeat scroll left top transparent;
+	cursor: pointer;
+	display: block;
+	float: left;
+	padding: 5px 4px 7px 18px;
+}
+.caja_destacada_abajo_mi_entel
+{
+	background: url(                     "../img/bg_caja_contenidos_mi_entel.gif" ) no-repeat scroll right top transparent;
+	display: block;
+	padding-right: 17px;
+	z-index: 5;
+}
+.caja_destacada_abajo_mi_entel span
+{
+	background: url(                     "../img/bg_caja_contenidos_mi_entel.gif" ) no-repeat scroll left top transparent;
+	display: block;
+	height: 7px;
+}
+.clearfix
+{
+	display: block;
+}
+
+#enlaces ul
+{
+	margin-left: -35px;
+}
+#enlaces ul li
+{
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+#enlaces ul li a
+{
+	background: url(            "../img/tab_cabecera.png" ) no-repeat scroll right -31px transparent;
+	color: #499BC5;
+	display: inline-block;
+	font-family: Tahoma;
+	font-size: 11px;
+	height: 31px;
+	padding-right: 6px;
+	text-align: center;
+	text-decoration: none;
+}
+#enlaces ul li a:hover
+{
+	background: url(            "../img/tab_cabecera.png" ) no-repeat scroll right bottom transparent;
+	color: #0073ae;
+}
+#enlaces a
+{
+	color: #499BC5;
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: center;
+	text-decoration: none;
+}
+#enlaces a span
+{
+	background: url(             "../img/tab_cabecera.png" ) no-repeat scroll left 3px transparent;
+	display: block;
+	padding: 9px 0px 9px 6px;
+}
+#enlaces a span:hover
+{
+	background: url(             "../img/tab_cabecera.png" ) no-repeat scroll left -65px transparent;
+}
+#Busqueda select, #proyecto select
+{
+	color: #666666;
+}
+a img
+{
+	border: 0;
+}
+input#txtBusqueda
+{
+	width: 100px;
+	-moz-border-radius: 5px;
+}
+input#Buscar
+{
+	vertical-align: middle;
+}
+#tabla_busqueda
+{
+	float: left;
+	max-height: 500px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 795px;
+}
+.tabla_busqueda
+{
+	border-color: #6699cc;
+	border-style: solid;
+	font-size: 11px;
+	width: 750px;
+	color: #3D628F;
+	font-family: Arial,Helvetica,sans-serif;
+}
+.tabla_busqueda th
+{
+	background-color: #D8F0FA;
+	border: 1px solid #B9D9EC;
+	color: #01407E;
+	font-weight: bold;
+}
+.tabla_busqueda td
+{
+	border: 1px solid #B9D9EC;
+	padding: 7px;
+}
+.tabla_busqueda a
+{
+	text-decoration: none;
+	color: #0073AE;
+}
+.tabla_busqueda a:hover
+{
+	border-bottom: dotted 1px;
+}
+
+.fleft
+{
+	float: left;
+}
+.Estilo19
+{
+	color: #005f9f;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+.tituloazul
+{
+	color: #666666;
+	display: block;
+	font: 12px/120% arial,helvetica,verdana,sans-serif;
+	font-weight: bold;
+	padding: 0.5em 0 0.25em;
+}
+#chile
+{
+	float: left;
+}
+#footer
+{
+	background-image: url(                    "../img/bg_contenedor_down.gif" );
+	background-repeat: no-repeat;
+	height: 6px;
+}
+.titulo_cajas
+{
+	background: none repeat scroll 0 0 transparent;
+	color: #175796;
+	font-size: 1.6em;
+	margin: 5px 0;
+	padding: 0;
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+}
+#proyecto select
+{
+	margin: 5px 0 10px 0;
+}
+#cont_lugar
+{
+	min-height: 570px;
+}
+#aqui1
+{
+	padding: 0 5px;
+	width: 390px;
+}
+#info_equipos .tabla_busqueda
+{
+	width: 370px;
+}
+#info_equipos .tabla_busqueda td
+{
+	padding: 2px;
+}
+
+/*Rack y Contenedor*/
+.contenedor
+{
+	margin: 15px;
+}
+#caja
+{
+	background: none repeat scroll 0 0 white;
+	height: 300px;
+	width: 350px;
+	margin-top: 10px;
+}

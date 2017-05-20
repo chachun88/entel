@@ -1,0 +1,129 @@
+BODY {
+	BACKGROUND-IMAGE: url(imagenes/fondo.jpg); MARGIN: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TABLE {
+	FONT-SIZE: 11px
+}
+UL {
+	MARGIN-LEFT: 75px; COLOR: rgb(100,100,100); MARGIN-RIGHT: 20px
+}
+H1 {
+	FONT-WEIGHT: normal; MARGIN: 0px 20px
+}
+H2 {
+	FONT-WEIGHT: normal; MARGIN: 0px 20px
+}
+H3 {
+	FONT-WEIGHT: normal; MARGIN: 0px 20px
+}
+H4 {
+	FONT-WEIGHT: normal; MARGIN: 0px 20px
+}
+H5 {
+	FONT-WEIGHT: normal; MARGIN: 0px 20px
+}
+H6 {
+	FONT-WEIGHT: normal; MARGIN: 0px 20px
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 28px; COLOR: rgb(175,0,0)
+}
+H2 {
+	FONT-SIZE: 18px; COLOR: rgb(175,0,0)
+}
+H3 {
+	FONT-SIZE: 13px; MARGIN-LEFT: 40px; COLOR: rgb(100,100,100); TEXT-ALIGN: justify
+}
+H4 {
+	FONT-SIZE: 11px; MARGIN-LEFT: 40px; COLOR: rgb(100,100,100); TEXT-ALIGN: justify
+}
+H5 {
+	FONT-SIZE: 14px; COLOR: rgb(175,0,0)
+}
+H6 {
+	FONT-SIZE: 11px; COLOR: rgb(100,100,100)
+}
+.BN {
+	FONT-WEIGHT: normal; COLOR: rgb(175,0,0)
+}
+.BB {
+	FONT-WEIGHT: bold; COLOR: rgb(175,0,0)
+}
+.NN {
+	FONT-WEIGHT: normal; COLOR: rgb(200,125,0)
+}
+.NB {
+	FONT-WEIGHT: bold; COLOR: rgb(200,125,0)
+}
+.GN {
+	FONT-WEIGHT: normal; COLOR: rgb(100,100,100)
+}
+.GB {
+	FONT-WEIGHT: bold; COLOR: rgb(100,100,100)
+}
+.menubase {
+	
+}
+.menubase A:link {
+	COLOR: rgb(175,0,0); HEIGHT: 15px; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: rgb(175,0,0); HEIGHT: 15px; TEXT-DECORATION: none
+}
+.menubase A:hover {
+	BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT: rgb(175,0,0) 5px solid; WIDTH: 175px; COLOR: rgb(255,255,255); TEXT-INDENT: 5px; HEIGHT: 15px; BACKGROUND-COLOR: rgb(250,150,0); BORDER-RIGHT-WIDTH: 0px; TEXT-DECORATION: none
+}
+.menubase A:active {
+	COLOR: rgb(175,0,0); HEIGHT: 15px; TEXT-DECORATION: none
+}
+.base {
+	
+}
+.base A:link {
+	COLOR: rgb(175,0,0); TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: rgb(175,0,0); TEXT-DECORATION: none
+}
+.base A:hover {
+	COLOR: rgb(250,150,0); TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: rgb(250,150,0); TEXT-DECORATION: underline
+}
+.formINGRESO {
+	
+}
+.formINGRESO INPUT {
+	FONT-SIZE: 11px; WIDTH: 75px; COLOR: rgb(175,0,0); HEIGHT: 20px
+}
+.formCONTACTO {
+	
+}
+.formCONTACTO TD {
+	FONT-WEIGHT: bold; COLOR: rgb(150,150,150); TEXT-ALIGN: left
+}
+.formCONTACTO INPUT {
+	FONT-SIZE: 11px; WIDTH: 300px; COLOR: rgb(175,0,0); HEIGHT: 20px
+}
+.formCONTACTO SELECT {
+	FONT-SIZE: 11px; WIDTH: 300px; COLOR: rgb(175,0,0); HEIGHT: 20px
+}
+.formCONTACTO radio {
+	WIDTH: 15px; HEIGHT: 15px
+}
+.formCONTACTO TEXTAREA {
+	FONT-SIZE: 11px; WIDTH: 300px; COLOR: rgb(175,0,0); HEIGHT: 100px
+}
+.formBOTONES {
+	
+}
+.formBOTONES INPUT {
+	FONT-SIZE: 11px; WIDTH: 140px; COLOR: rgb(175,0,0); HEIGHT: 20px
+}
+.formRADIO {
+	
+}
+.formRADIO INPUT {
+	WIDTH: 20px; HEIGHT: 20px
+}
